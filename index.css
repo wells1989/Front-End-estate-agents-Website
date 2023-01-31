@@ -1,0 +1,204 @@
+* {
+  font-family: helvetica, serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* heading section */ 
+
+html {
+    background-image: url("https://www.thoughtco.com/thmb/O-Q1sUt0E7N1OIpy8bOvKbSVXEM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1002330088-070a0042921b423782b307a84b8146dc.jpg");
+    background-size: cover;
+}
+
+header {
+  height: 100px;
+  position: relative;
+  width: 90%;
+  margin-left: 5%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnhdIDOvD2dQf8HBLdGZ0gdQNE0dXic2MyBg&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.logo img {
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+
+.title h1 {
+  font-size: 1.25rem;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
+  top: 70%;
+  background-color: white;
+}
+
+/* buttons section */
+
+.buttons ul {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  list-style: none;
+}
+
+.button {
+  margin: 20px;
+  background-color: #a0a09e;
+  line-height: 1.25rem;
+  padding: 15px;
+  border-radius: 25%;
+  width: 20%;
+  text-align: center;
+  vertical-align: center;
+
+  border: 1px solid #000;
+  box-shadow: 0px 4px black;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #42FF33;
+  box-shadow: none;
+}
+
+/* mission statement */ 
+
+.Mission {
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1612535326654-bc0fdb4d4ca0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdhdGVybWFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  margin: 15px;
+  height: 400px;
+  width: 85%;
+  margin-left: 7.5%;
+}
+
+.Mission-Content {
+  background-color: white;
+  width: 50%;
+  position: relative;
+  top: 20%;
+  margin-left: 25%;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.Mission-Content2 {
+   background-color: white;
+  width: 25%;
+  position: relative;
+  top: 30%;
+  float: left;
+  margin-left: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.Mission-Content3 {
+   background-color: white;
+  width: 25%;
+  position: relative;
+  top: 30%;
+  float: right;
+  margin-right: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+/* Portfolio */
+
+.Portfolio {
+  background-image: url("https://png.pngtree.com/element_our/20200610/ourmid/pngtree-ripple-water-pattern-background-image_2245720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 7.5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.portfolio-title {
+  font-weight: 900;
+  font-size: 2rem;
+  width: 100%;
+  line-height: 2rem;
+  margin-bottom:2%;
+}
+
+.portfolio-items {
+  border: 1px solid black;
+  font-style: italic;
+}
+/* team */
+
+.team {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.team-members {
+  display: inline-flex;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.team h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.team-members ul {
+  list-style: none;
+  position: relative;
+  top: 30%;
+}
+
+.team-members li {
+  position: relative;
+  top: 30%;
+  right: 10%;
+}
+
+.team-member-title {
+  text-decoration: underline;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+/* Footer */
+
+footer {
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+footer h2 {
+  font-weight: 900;
+  font-size: 2rem;
+  background-color: #F0FFFF;
+}
